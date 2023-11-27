@@ -37,5 +37,12 @@
 (#21)  git branch feature/Ticket222	Para comprobar que se ha creado utilizo git branch -a
 (#22)  git checkout feature/Ticket220	Fusión con develop sería recursiva
 
-
+(#24)  git add bitacora.txt
+       git commit -m "Paso 24"
+(#25)  git checkout develop
+(#26)  git merge --no-ff feature/Ticket220
+(#27)  git merge --no-ff feature/Ticket221	Fusión recursiva con conflictos:
+						Editar bitacora.txt
+						git add bitacora.txt
+						git commit
 
