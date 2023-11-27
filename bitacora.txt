@@ -35,7 +35,7 @@
        git commit -m "Paso 19"
 (#20)  git checkout develop
 (#21)  git branch feature/Ticket222	Para comprobar que se ha creado utilizo git branch -a
-(#22)  git checkout feature/Ticket220	Fusión con develop sería recursiva
+(#22)  git checkout feature/Ticket220	Fusión con develop sería fast-forward
 
 (#24)  git add bitacora.txt
        git commit -m "Paso 24"
