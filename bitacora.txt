@@ -52,3 +52,10 @@
 (#32)  git checkout feature/Ticket222
 (#33)  git merge develop
 
+(#35)  git add bitacora.txt
+       git commit -m "Paso 35"
+(#36)  git checkout develop
+(#37)  git merge --no-ff feature/Ticket222
+(#38)  git checkout master
+(#39)  git merge --no-ff develop
+
