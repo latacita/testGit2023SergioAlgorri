@@ -17,8 +17,17 @@
 (#07)  git branch develop
 (#08)  git checkout -b feature/Ticket220
 
+(#10)  git add bitacora.txt
+       git commit -m "Paso 10"
+(#11)  git checkout develop
+(#12)  git checkout -b feature/Ticket221
+
 (#14)  git stash
        git checkout feature/Ticket220
+
+(#16)  git add bitacora.txt
+       git commit -m "Paso 16"
+(#17)  git checkout feature/Ticket221
 
 (#18)  git stash apply
        Editar fichero bitacora.txt
@@ -27,3 +36,6 @@
 (#20)  git checkout develop
 (#21)  git branch feature/Ticket222	Para comprobar que se ha creado utilizo git branch -a
 (#22)  git checkout feature/Ticket220	Fusión con develop sería recursiva
+
+
+
