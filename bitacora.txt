@@ -45,4 +45,10 @@
 						Editar bitacora.txt
 						git add bitacora.txt
 						git commit
+(#29)  git add bitacora.txt
+       git commit -m "Paso 29"
+(#30)  git tag Step29
+(#31)  git push --set-upstream origin develop
+(#32)  git checkout feature/Ticket222
+(#33)  git merge develop
 
